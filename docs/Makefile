@@ -51,7 +51,7 @@ BUILDDIR      = _build
 # other supported targets one could use; see `$(SPHINXBUILD) -M help` for a
 # complete list if interested.
 .PHONY: html
-html:
+html: veryclean
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS)
 
 .PHONY: clean

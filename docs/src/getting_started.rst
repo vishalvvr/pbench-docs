@@ -1,7 +1,7 @@
 .. _UserGuide:
 
-User Guide
-##############
+Getting Started
+###############
 
 .. contents::
 
@@ -47,7 +47,7 @@ For explanations and details, see subsequent sections.
 How to install
 ***************
 
-See the `install section <https://distributed-system-analysis.github.io/pbench/start.html>`_ for details.
+See the :doc:`/src/agent/install/index` install doc for details.
 
 Defaults
 **********
